@@ -4,6 +4,8 @@ const translate  = require('./controllers/'translate);
 const hiBarbie  = require('./controllers/'hiBarbie);
 const coinToss  = require('./controllers/coinToss');
 const newYear  = require('./controllers/newYear');
+const test56  = require('./controllers/test56');
+app.use('/test66', test56);
 app.use('/newYear', newYear);
 app.use('/toss', coinToss);
 app.use('/Barbie', hiBarbie);
