@@ -6,6 +6,8 @@ const coinToss  = require('./controllers/coinToss');
 const newYear  = require('./controllers/newYear');
 const test56  = require('./controllers/test56');
 const jokesv1  = require('./controllers/jokesv1');
+const jokesv3  = require('./controllers/jokesv3');
+app.use('/jokesv3', jokesv3);
 app.use('/jokesv1', jokesv1);
 app.use('/test66', test56);
 app.use('/newYear', newYear);
